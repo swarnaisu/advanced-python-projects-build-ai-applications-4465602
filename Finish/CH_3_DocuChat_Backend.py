@@ -204,7 +204,7 @@ def load_memory_to_pass(session_id: str):
                 [(data[x], data[x + 1])]
             )  # our history is expected format is [(human_message,ai_message)] , the even index has human message and odd has ai response
     print(history)
-    return history  # retun history
+    return history  # return history
 
 
 def get_session() -> str:
